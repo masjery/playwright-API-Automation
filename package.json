@@ -1,0 +1,25 @@
+{
+  "name": "playwright-api-ui-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright test --reporter=html",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}

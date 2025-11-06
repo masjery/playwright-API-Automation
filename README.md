@@ -74,7 +74,7 @@ npx playwright show-report
 * Enable CI/CD pipeline via **GitHub Actions**
 
 
-## 👩‍💻 Author
+## Author
 
 **Masrura Akter**
 Automation Engineer | Playwright | JavaScript | API Testing

@@ -1,14 +1,13 @@
 
-# 🔐 Playwright API Automation Framework
+# Playwright API Automation Framework
 
 ## Overview
 This project is a **Playwright-based API automation framework** built using **JavaScript**.  
 It demonstrates **token-based authentication**, **API chaining**, and **response validation** using **Rahul Shetty’s public demo API**.  
 The framework follows a modular structure for better scalability, maintainability, and reusability — ideal for showcasing API automation skills.
 
----
 
-## 🧩 Project Structure
+##  Project Structure
 ```
 
 PlaywrightAPIAutomation/
@@ -24,11 +23,8 @@ PlaywrightAPIAutomation/
 ├── package.json
 └── README.md
 
-````
 
----
-
-## ⚙️ Tech Stack
+##  Tech Stack
 - **Playwright** – API testing and automation  
 - **JavaScript (Node.js)** – Implementation language  
 - **Chai / Expect assertions** – Response validation  
@@ -36,35 +32,33 @@ PlaywrightAPIAutomation/
 
 ---
 
-## ✅ Features Automated
+##  Features Automated
 - Login via API using valid credentials  
 - Token generation and caching (`token.json`)  
 - Authenticated API calls using saved token  
 - API response validation and status checks  
 
----
 
-## 🚀 How to Run Tests
+##  How to Run Tests
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 npm install
 npx playwright install
 ````
 
-### 2️⃣ Execute Tests
+### Execute Tests
 
 ```bash
 npx playwright test
 ```
 
-### 3️⃣ View Results
+### View Results
 
 Playwright will display detailed API responses and test results in the terminal or HTML report (if configured).
 
----
 
-## 📊 Reporting
+## Reporting
 
 Optionally, you can enable Playwright’s built-in **HTML report**:
 
@@ -72,15 +66,13 @@ Optionally, you can enable Playwright’s built-in **HTML report**:
 npx playwright show-report
 ```
 
----
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Add more API endpoints (products, orders, cart)
 * Integrate environment-based configs
 * Enable CI/CD pipeline via **GitHub Actions**
 
----
 
 ## 👩‍💻 Author
 
